@@ -11,3 +11,10 @@ spring:
     driverClassName: org.h2.Driver
   jpa:
     spring.jpa.database-platform: org.hibernate.dialect.H2Dialect
+  flyway:
+    enabled: true
+    user: sa
+    password: password
+    schemas: mydb
+    url: jdbc:h2:mem:mydb
+    locations: filesystem:db/migration

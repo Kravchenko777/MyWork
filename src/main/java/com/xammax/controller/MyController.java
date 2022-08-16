@@ -1,4 +1,4 @@
-package com.xammax;
+package com.xammax.controller;
 
 
 import com.xammax.entity.UserPOJO;
